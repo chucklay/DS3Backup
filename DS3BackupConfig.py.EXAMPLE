@@ -1,0 +1,8 @@
+'''Variables used by Dark Souls backup script.'''
+
+source = 'C:\\Users\\APPDATA\\AppData\\Roaming\\DarkSoulsIII\\YOUR_ID\\DS30000.sl2'		# Your Dark Souls III save data location.
+dest = 'C:\\Documents\\DS3 Backup\\'								# Where you want to back your data up to.
+maxSave = 10											# Number of rotating saver slots.
+interval = 10											# Time between backups, in minutes.
+gamePath = 'C:\\Program Files\\Steam\\steamapps\\common\\DARK SOULS III\\Game\\DarkSoulsIII.exe'# Path to game executable file.
+
